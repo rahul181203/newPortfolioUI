@@ -21,8 +21,8 @@ export default function SkillsPage(){
     ];
     return (
         <>
-        <Container className="h-[100vh]" m={'4'} id="skills">
-            <Text as="p" className=" text-5xl underline font-semibold" align={'center'}>SKILLS</Text>
+        <Container className="h-auto bg-mauve4" p={'5'} id="skills">
+            <Text as="p" className=" text-3xl font-semibold italic" align={'center'}>SKILLS</Text>
             <Container size={'4'} mt={'7'}>
                 <Grid columns={{initial:'3',sm:'4',md:"5",lg:"6"}} gap={'9'}>
                     {

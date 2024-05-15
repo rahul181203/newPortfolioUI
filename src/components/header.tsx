@@ -15,8 +15,8 @@ export default function Header(){
                     <Link highContrast underline={'hover'} weight={'medium'} href="#home">Home</Link>
                     <Link highContrast underline={'hover'} weight={'medium'} href="#about">About</Link>
                     <Link highContrast underline={'hover'} weight={'medium'} href="#skills" >Skills</Link>
-                    <Link highContrast underline={'hover'} weight={'medium'}>Services</Link>
-                    <Link highContrast underline={'hover'} weight={'medium'}>Projects</Link>
+                    <Link highContrast underline={'hover'} weight={'medium'} href="#certificates">Certificates</Link>
+                    <Link highContrast underline={'hover'} weight={'medium'} href="#projects">Projects</Link>
                     <Link highContrast underline={'hover'} weight={'medium'}>Contact</Link>
                 </Flex>
             </Box>
