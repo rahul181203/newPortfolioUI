@@ -4,7 +4,8 @@ import Image from "next/image";
 export default function HomeComponent(){
     return (
         <>
-            <Container id="home" size={'4'} className="h-auto relative bg-mauve4 pb-[200px]">
+            <Container id="home" size={'4'} className="h-[90vh] relative bg-mauve4 pb-[200px]">
+                <Box  className="h-[70vh] relative flex justify-center items-center">
                 <Flex direction={{initial:'column-reverse',md:"row"}} gap={{initial:"4",md:"0"}} align={'center'} justify={'between'} className="relative top-6" position={'relative'}>
                     <Flex direction={'column'} gap={'4'} position={'relative'} wrap={'nowrap'}>
                         <div className="flex items-baseline gap-3">
@@ -19,6 +20,7 @@ export default function HomeComponent(){
                         <Image className="rounded-full" src={"/pic.jpeg"} alt="pic" height={200} width={200} layout="responsive"/>
                     </Box>
                 </Flex>
+                </Box>
 
                 <Box className="absolute bottom-14 left-24">
                     <Flex gap={'4'}>
