@@ -6,6 +6,7 @@ import SkillsPage from "@/components/skills";
 import { SectionSpacer } from "@/components/spacers";
 import Certificates from "@/components/certificates";
 import Projects from "@/components/projects";
+import Contact from "@/components/contact";
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
       <Certificates/>
       <SectionSpacer/>
       <Projects/>
+      <Contact/>
       {/* <AboutPage/> */}
     </>
   );
